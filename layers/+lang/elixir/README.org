@@ -125,7 +125,6 @@ You find and overview of all the key-bindings on the [[file:alchemist-refcard.pd
 
 | Key Binding | Description                                                |
 |-------------+------------------------------------------------------------|
-| ~SPC m p t~ | Open project test directory and list all test files.       |
 | ~SPC m g t~ | Toggle between a file and its tests in the current window. |
 | ~SPC m g T~ | Toggle between a file and its tests in other window.       |
 
@@ -155,13 +154,14 @@ You find and overview of all the key-bindings on the [[file:alchemist-refcard.pd
 
 ** Tests
 
-| Key Binding | Description                           |
-|-------------+---------------------------------------|
-| ~SPC m g t~ | Open the test file for current buffer |
-| ~SPC m t a~ | Run all the tests                     |
-| ~SPC m t b~ | Run all the tests from current buffer |
-| ~SPC m t r~ | Rerun the last test                   |
-| ~SPC m t t~ | Run test under point                  |
+| Key Binding | Description                                          |
+|-------------+------------------------------------------------------|
+| ~SPC m g t~ | Open the test file for current buffer                |
+| ~SPC m t a~ | Run all the tests                                    |
+| ~SPC m t b~ | Run all the tests from current buffer                |
+| ~SPC m t r~ | Rerun the last test                                  |
+| ~SPC m t t~ | Run test under point                                 |
+| ~SPC m t F~ | Open project test directory and list all test files. |
 
 ** Compile
 

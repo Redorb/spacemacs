@@ -44,7 +44,6 @@
     :config
     (spacemacs/declare-prefix-for-mode 'elixir-mode "mc" "compile")
     (spacemacs/declare-prefix-for-mode 'elixir-mode "me" "eval")
-    (spacemacs/declare-prefix-for-mode 'elixir-mode "mp" "project")
     (spacemacs/declare-prefix-for-mode 'elixir-mode "mh" "help")
     (spacemacs/declare-prefix-for-mode 'elixir-mode "mt" "test")
     (spacemacs/declare-prefix-for-mode 'elixir-mode "ms" "iex")
@@ -65,7 +64,6 @@
       "ev" 'alchemist-eval-quoted-buffer
       "eV" 'alchemist-eval-print-quoted-buffer
 
-      "pt" 'alchemist-project-find-test
       "gt" 'alchemist-project-toggle-file-and-tests
       "gT" 'alchemist-project-toggle-file-and-tests-other-window
 
@@ -92,6 +90,7 @@
       "ta" 'alchemist-mix-test
       "tb" 'alchemist-mix-test-this-buffer
       "tt" 'alchemist-mix-test-at-point
+      "tF" 'alchemist-project-find-test
       "tf" 'alchemist-test-file
       "tn" 'alchemist-test-jump-to-next-test
       "tp" 'alchemist-test-jump-to-previous-test
